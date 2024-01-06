@@ -1,0 +1,19 @@
+.bluebox {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.yellowbox {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 140px;
+    left: 100px;
+}
+
+/* Fixed - Fixed even if we scroll the page
+we can give top, right, left, bottom */

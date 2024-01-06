@@ -1,0 +1,20 @@
+.bluebox {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.yellowbox {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+/* Absolute - Other elements will not consider this element so other elements takes its place
+Non static parent la irundhu offset otherwise root
+we can give top, right, left, bottom */
